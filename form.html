@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      이름 : <input type="text" name="name" /> <br />
+      아이디 : <input type="text" name="id" /> <br />
+      비밀번호 : <input type="password" name="password" /> <br />
+      연락처 : <input type="text" name="number" size="5" /> -
+      <input type="text" name="number" size="5" /> -
+      <input type="text" name="number" size="5" /> <br />
+      사진 : <input type="file" /> <br />
+      성별구분 : <input type="radio" name="gender" value="male" />남
+      <input type="radio" name="gender" value="female" />여 <br />
+      사용언어:<input type="checkbox" name="language" value="ko" />한글
+      <input type="checkbox" name="language" value="en" />영어
+      <input type="checkbox" name="language" value="jp" />일어
+      <input type="checkbox" name="language" value="ch" />중국어 <br />
+      자기소개:
+      <textarea name="self" rows="5" cols="20" placeholder="입력"></textarea>
+      <br />
+      국적:
+      <select name="nation">
+        <option value="KOREA">KOREA</option>
+        <option value="USA">USA</option>
+        <option value="JAPAN">JAPAN</option>
+        <option value="CHINA">CHINA</option>
+      </select>
+      <br />
+      좋아하는 음식:
+      <select name="favorite" multiple="multiple">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
